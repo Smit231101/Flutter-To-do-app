@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:todo_app/view_models/todo_viewModel.dart';
-import 'package:todo_app/views/home_screen.dart';
+import 'package:todo_app/views/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
         ),
-        home: HomeScreen(),
+        home: SplashScreen(),
       ),
     );
   }
